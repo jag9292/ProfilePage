@@ -1,0 +1,136 @@
+* {font-family: 'Roboto', sans-serif;}
+body {
+    margin: 0px;
+}
+.header {
+    height: 43px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    margin: 0px 0px 0px 108px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.nav {
+    display: flex;
+}
+ul {
+    all: initial;
+}
+ul li {
+    list-style: none;
+}
+li a{
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.signout {
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 2px 8px;
+    margin: 90px;
+}
+
+.main {
+    height: 400px;
+}
+.bio {
+    height: 250px;
+    width: 310px;
+    border: 3px solid lightgray;
+    border-radius: 2px;
+    margin: 20px 108px;
+}
+.topBar {
+    height: 70px;
+    background-color:cadetblue;
+}
+.user {
+    position: absolute;
+    top: 95px;
+    left: 130px;
+}
+.user img {
+    height: 70px;
+    filter: invert();
+}
+h2 {
+    margin: 10px 20px;
+}
+.marker {
+    position: relative;
+    top: 72px;
+    left: 25px;
+}
+.marker img {
+    height: 15px;
+}
+h3 {
+    margin: 10px 45px;
+}
+h4 {
+    margin: 0px 20px;
+}
+.edit {
+    position: relative;
+    left: 20px;
+    top: 8px;
+}
+.edit img {
+    height: 15px;
+}
+.edit a {
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+    font-size: 12px;
+}
+
+.education {
+    height: 110px;
+    width: 310px;
+    border: 3px solid lightgray;
+    border-radius: 2px;
+    margin: 0px 108px;
+    background-color: pink;
+}
+.bar {
+    height: 30px;
+    background-color:darkslategray;
+    color: white;
+    margin: 0px;
+}
+h5 {
+    margin: 0px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.requests {
+    height: 125px;
+    width: 168px;
+    background-color: darkviolet;
+    position: relative;
+    bottom: 392px;
+    left: 440px;
+    border: 3px solid lightgray;
+    border-radius: 3px;
+}
+
+.connections {
+    height: 205px;
+    width: 168px;
+    background-color: darkviolet;
+    position: relative;
+    bottom: 375px;
+    left: 440px;
+    border: 3px solid lightgray;
+    border-radius: 3px;
+}

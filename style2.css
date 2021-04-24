@@ -1,0 +1,230 @@
+* {font-family: 'Roboto', sans-serif;}
+body {
+    margin: 0px;
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px;
+}
+.title {
+    width: 100px;
+    align-self: center;
+}
+.header h1 {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+ul {
+    all: initial;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.signout {
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 2px 8px;
+    margin: 20px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.bio {
+    height: 240px;
+    width: 310px;
+    border: 3px solid lightgray;
+    border-radius: 2px;
+    margin: 20px 0px 0px 110px;
+}
+.topBar {
+    height: 70px;
+    background-color:cadetblue;
+}
+.user {
+    position: absolute;
+    top: 95px;
+    left: 130px;
+}
+.user img {
+    height: 70px;
+}
+h2 {
+    margin: 10px 20px;
+}
+.marker {
+    position: relative;
+    top: 72px;
+    left: 25px;
+}
+.marker img {
+    height: 15px;
+}
+h3 {
+    margin: 10px 45px;
+}
+h4 {
+    margin: 0px 20px;
+    font-size: 13px;
+    font-weight: 500px;
+}
+.edit {
+    position: relative;
+    left: 20px;
+    top: 8px;
+}
+.edit img {
+    height: 15px;
+}
+.edit a {
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+    font-size: 12px;
+}
+.education {
+    height: 110px;
+    width: 310px;
+    margin: 20px 0px 0px 110px;
+    border: 3px solid lightgray;
+    border-radius: 2px;
+}
+.education .topBar {
+    height: 30px;
+    background-color:darkslategray;
+    color: white;
+}
+.topBar h4 {
+    padding: 7px 0px 0px 5px;
+}
+.info h4 {
+    padding: 4px;
+}
+.light {
+    color: rgb(100, 100, 100);
+}
+.requests {
+    height: 130px;
+    width: 165px;
+    margin: 20px;
+    border: 3px solid lightgray;
+    border-radius: 2px;
+}
+.requests .topbar {
+    height: 40px;
+    background-color:darkslategray;
+}
+.topbar {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+.topbar h4 {
+    margin: 2px;
+}
+.topbar .circle {
+    margin-left: 8px;
+}
+.circle {
+    width: 16px;
+    height: 16px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: darkslategray;
+    text-align: center;
+}
+.users {
+    height: 50px;
+}
+.user2 {
+    height: 30px;
+    display: flex;
+    margin: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.users img {
+    height: 24px;
+    border-radius: 50%;
+}
+.buttons {
+    display: flex;
+    margin: -7px;
+    padding: 5px;
+    justify-content: right;
+}
+.buttons img {
+    margin: 1px;
+    padding: 1px;
+}
+.connections {
+    height: 200px;
+    width: 165px;
+    margin-left:20px;
+    border: 3px solid lightgray;
+    border-radius: 2px;
+}
+.connections .topbar {
+    height: 40px;
+    background-color:darkslategray;
+}
+.topbar {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+}
+.topbar .circle2 {
+    margin: 0px 8px;
+    height: 16px;
+    width: 35px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: darkslategray;
+    text-align: center;
+}
+.users {
+    height: 90px;
+}
+.users img {
+    height: 22px;
+    border-radius: 50%;
+}
+.user3 {
+    height: 32px;
+    display: flex;
+    margin-left: 6px;
+    align-items: center;
+    justify-content: left;
+}
+.viewmore {
+    height: 25px;
+    padding-top: 5px;
+    margin-top: 40px;
+}
+.viewmore a {
+    font-size: 12px;
+    font-weight: 800;
+    margin: 10px;
+}
